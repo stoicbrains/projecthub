@@ -1,0 +1,115 @@
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* background-color:rgba(255, 251, 238, 0.107); */
+    backdrop-filter: blur(5px);
+    box-shadow: 3px 3px 45px 1px black;
+    background-size: cover;
+    overflow: hidden;
+    /* padding-block:1rem; */
+    height: 3rem;
+    width: 100%;
+    font-size: medium;
+    position: absolute;
+    top: 0;
+    font-weight: 700;
+    font-family: sans-serif;
+
+    
+
+    
+    
+}
+.dropdown{
+    position: absolute;
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-blend-mode: overlay;
+    transition: all 500ms;
+    width:35rem;
+    border-radius: 1rem;
+    left: 20rem;
+    top: 4rem;
+    overflow: hidden;
+    
+}
+.Background{
+    height: 100%;
+    width: 100%;
+    
+    z-index: -999;
+    position: relative;
+
+}
+
+.Text{
+    position: absolute;
+    color: white;   
+    top: 0;
+    margin-inline: 3rem;
+    margin-block: 2rem;
+    z-index: 99;
+}
+
+.show-text{
+    display: inline;
+    color: black;
+
+    
+    
+}
+/* .dropdown:hover{
+    
+} */
+.hide-text{
+    display: none;
+}
+.show{
+    left:30rem;
+    height: 35rem;
+    border: 1px solid rgba(0, 0, 0, 0.338);
+    /* padding:35px; */
+    z-index: +98;
+}
+.hidden{
+    height: 0;
+}
+.items{
+    margin-right: 80%;
+    margin-top: 10px;
+    
+}
+
+.components{
+    margin-right: 10px;
+    margin-left: 50%;
+    padding-left: 30px;
+
+}
+.menu{
+    margin-top: 10px;
+    margin-right: 5rem;
+}
+a{
+    color: whitesmoke;
+    transition: all 300ms;
+}
+a:hover{
+    color: rgba(212, 227, 13, 0.662);
+    text-decoration: none;
+    opacity: 0.7;
+}
+.logo{
+    height: 60px;
+    width: 100rem;
+    display: flex;
+    justify-content: center;
+    /* margin-left: 3rem; */
+    float: left;
+    
+    
+   
+}
